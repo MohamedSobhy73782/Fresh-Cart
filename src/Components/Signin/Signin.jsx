@@ -4,7 +4,6 @@ import { useFormik } from 'formik'
 import React, { useContext, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import * as Yup from "yup"
-import { cartContext } from '../../Context/cartContext'
 import { toast } from 'react-toastify'
 
 
@@ -23,7 +22,7 @@ export default function Signin() {
       axios.post("https://ecommerce.routemisr.com/api/v1/auth/signin" , values).then(({data}) =>
      {
       
-      if(data.message == "success")
+      if(data.message === "success")
       {
         localStorage.setItem("token" , data.token)
         navigate("/home")
