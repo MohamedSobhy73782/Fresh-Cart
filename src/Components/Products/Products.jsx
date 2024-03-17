@@ -31,9 +31,9 @@ export default function Products() {
 
       
           <form action="" >
-            <div className="text-center w-50 mx-auto my-5 d-flex align-items-center">
-              <i className="fa-solid fa-magnifying-glass fs-4 mx-2"></i>
-              <input type="search" className="form-control w-75"
+            <div className="text-center w-50 mx-auto my-5 d-flex align-items-center ">
+              <i className="fa-solid fa-magnifying-glass fs-3 ms-5"></i>
+              <input type="search" className="form-control w-75 mx-3"
                 placeholder="Search... "
                 value={filterText}
                 onChange={(e)=>setfilterText(e.target.value)}
