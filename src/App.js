@@ -30,7 +30,7 @@ import Categories2 from './Components/Categories2/Categories2'
 
 export default function App() {
 
-  let routes = createBrowserRouter ([
+  let routes = createHashRouter ([
     {
       path:"/" , element: <MainLayout /> , children: [
       {index:true , element: <ProtectedRoutes> <Home /> </ProtectedRoutes>  },
