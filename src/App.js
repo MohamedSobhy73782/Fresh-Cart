@@ -1,7 +1,7 @@
 
 
 import React, { Children } from 'react'
-import {Outlet, RouterProvider , createBrowserRouter, createHashRouter} from "react-router-dom"
+import {Outlet, RouterProvider , createHashRouter} from "react-router-dom"
 import MainLayout from './Layouts/MianLayout/MainLayout'
 import Home from './Components/Home/Home'
 import Products from './Components/Products/Products'
