@@ -27,7 +27,6 @@ import Categories2 from './Components/Categories2/Categories2'
 
 
 
-
 export default function App() {
 
   let routes = createHashRouter ([
