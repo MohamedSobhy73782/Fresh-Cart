@@ -3,7 +3,6 @@ import MainSlider from '../MainSlider/MainSlider'
 import Categories from '../Categories/Categories'
 import { Outlet } from 'react-router-dom'
 import Products from '../Products/Products'
-import Footer from '../Footer/Footer'
 
 
 
